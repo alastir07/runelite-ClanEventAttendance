@@ -32,7 +32,8 @@ import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
-public enum OutputFormat {
+public enum OutputFormat
+{
     PNG("PNG ", 0),
     TEXT("Text", 1);
 
@@ -40,7 +41,8 @@ public enum OutputFormat {
     private final int value;
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return name;
     }
 }
